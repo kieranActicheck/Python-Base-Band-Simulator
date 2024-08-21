@@ -4,7 +4,7 @@ Bill's code unmodified.
 ### FILE: httpSimulatorDevKE.py 
 My altered version of Bill's code.
 
-
+The Python script is designed to simulate HTTP communication with a server endpoint. For testing purposes, I have been using my modified version of the Python script with this https://github.com/kieranActicheck/ActicheckDemo BandPayloadProcessor web API server.
 
 Here are some differences in the altered version of the code:
 
