@@ -126,8 +126,8 @@ while True:
         # Process response
         baseMessage = ' ' #default to null
         bandMessage = ' ' #default to null
-        baseContent = content.find('DBSCMD')
-        bandContent = content.find('DBDCMD')
+        baseContent = content.find('BDSTAT')
+        bandContent = content.find('BDENGI')
         if (baseContent > 0):
             baseMessage = content[baseContent + 20:baseContent + 52]
             tune = baseMessage[4:6]
